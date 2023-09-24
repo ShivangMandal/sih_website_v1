@@ -1,0 +1,8 @@
+.gameCSS{
+
+    max-width:max-content;
+    max-height: max-content;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
