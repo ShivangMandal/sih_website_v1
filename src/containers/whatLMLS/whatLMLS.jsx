@@ -14,7 +14,7 @@ import { useState } from 'react';
 //   }
 
 const WhatLMLS= () => (
-  <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+  <div className="gpt3__whatgpt3 section__margin" id="wlms">
     <div className="gpt3__whatgpt3-feature">
       <Feature title="What is Lawman's Legacy?" text="Lawman's Legacy is a game changer project aimed at closing the knowledge gap among India's youth.
 - We propose the development of an engaging and educational gamified platform that will empower children with the understanding they need to protect themselves and make informed decisions." />

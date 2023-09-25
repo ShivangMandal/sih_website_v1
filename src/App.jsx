@@ -6,7 +6,7 @@ import { CTA, Navbar,  } from './components';
 import Game from './components/Game';
 import Egame from './game';
 import runGame from './components/game/runGame';
-
+import ScrollToTop from './components/ScrollToTop';
 
 import './App.css';
 import { BrowserRouter, Link, Navigate, Route, Router, Routes, useNavigate } from 'react-router-dom';
@@ -45,14 +45,10 @@ return(
       </div>
       <WhatLMLS />
 
-     <div className='playButton'>
-      <button onClick={run_game}> play  </button>
+     <div className='playButton' id="play">
+      <button onClick={run_game}> Play Now </button>
       
-        {/* <div className= "game">
-
-        {/* {runGame && <Game />}  */}
-        {/* </div> */} */
-      
+   
       
        
 
@@ -64,6 +60,7 @@ return(
       <Possibility />
       <CTA />
       <Footer />
+      <ScrollToTop/>
     
 
   </div>
