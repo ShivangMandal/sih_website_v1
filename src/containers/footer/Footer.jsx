@@ -9,7 +9,7 @@ const Footer = () => (
     </div>
 
     <div className="lmls__footer-btn">
-      <p>Request Early Access</p>
+     <a href='https://forms.gle/o5VmEQSTQ8CYtKkD7' ><p>Request Early Access</p></a>
     </div>
 
     <div className="lmls__footer-links">

@@ -20,10 +20,10 @@ const Navbar = () => {
         <div className="lmls__navbar-links_container">
           <p><a href="#home">Home</a></p>
           <p><a href="#wlms">What is Lawman's Legacy?</a></p>
-          <p><a href="#play">Play Lawman's legacy</a></p>
+          <p ><a href="#play">Play Lawman's legacy</a></p>
           <p><a href="#possibility">Possibility</a></p>
           <p><a href="#features">Featurs</a></p>
-          <p><a href="#blog">Library</a></p>
+          <p><a href="#blog">Blogs</a></p>
           
         </div>
       </div>
@@ -40,7 +40,7 @@ const Navbar = () => {
             <p><a href="#play">Play Lawman's legacy</a></p>
             <p><a href="#possibility">Possibility</a></p>
             <p><a href="#features">Features</a></p>
-            <p><a href="#blog">Library</a></p>
+            <p><a href="#blog">Blogs</a></p>
           </div>
 
         </div>

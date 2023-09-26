@@ -21,7 +21,7 @@ const WhatLMLS= () => (
     </div>
     <div className="gpt3__whatgpt3-heading">
       <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
-      <p>Explore the Library</p>
+      <a href='#blog'><p>Explore the Blogs</p></a>
     </div>
     <div className="gpt3__whatgpt3-container">
       <Feature title="Fun" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
@@ -31,14 +31,7 @@ const WhatLMLS= () => (
       
     </div>
 
-    {/* <div className="lmls__navbar-sign">
 
- 
-      <button  onClick={run_game}>Play Now</button> 
-
-        {runGame && <Game />}
-
-    </div> */}
   </div>
 );
 

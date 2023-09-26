@@ -25,7 +25,7 @@ const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">You can save lifes by knowing the Law</h1>
-      <p>Click play to Get Started</p>
+     <a href='#play'> <p>Click play to Get Started</p></a>
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (

@@ -10,6 +10,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 import './App.css';
 import { BrowserRouter, Link, Navigate, Route, Router, Routes, useNavigate } from 'react-router-dom';
+import Blog from './containers/blog/blog';
 // import { useState } from 'react';
 
 
@@ -59,8 +60,10 @@ return(
       <Features />
       <Possibility />
       <CTA />
+      <Blog/>
       <Footer />
       <ScrollToTop/>
+      
     
 
   </div>
