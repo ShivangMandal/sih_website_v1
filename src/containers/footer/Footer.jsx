@@ -1,5 +1,5 @@
 import React from 'react';
-import logo2 from '../../logo2.svg';
+import logo from '../../logo.png';
 import './footer.css';
 
 const Footer = () => (
@@ -14,7 +14,7 @@ const Footer = () => (
 
     <div className="lmls__footer-links">
       <div className="lmls__footer-links_logo">
-        <img src={logo2} alt="lmls_logo" />
+        <img src={logo} alt="lmls_logo" />
         <p>India, <br /> All Rights Reserved</p>
       </div>
       <div className="lmls__footer-links_div">

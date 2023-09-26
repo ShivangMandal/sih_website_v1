@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import lawlady2 from '../../lawlady2.png'
+import logo from '../../logo.png'
 import './navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
-
+  const report =()=>
+  {
+    location.href="https://forms.gle/zVfeyKwpxdc58N7Z8";
+  }
 
   return (
     <div className="lmls__navbar"> 
      
       <div className="lmls__navbar-links_logo">
-         <a href='#home'> <img src={lawlady2} /> </a>
+         <a href='#home'> <img src={logo} /> </a>
         </div>
 
       <div className="lmls__navbar-links">
@@ -26,6 +29,11 @@ const Navbar = () => {
           <p><a href="#blog">Blogs</a></p>
           
         </div>
+      </div>
+
+      <div className="report-button">
+       
+        <button type="button" onClick={report}>Report Offence</button>
       </div>
 
       <div className="lmls__navbar-menu">
